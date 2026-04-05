@@ -1,0 +1,67 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Build outputs
+dist/
+build/
+out/
+*.o
+*.a
+*.so
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Arduino/ESP32
+*.ino.cpp
+*.ino.d
+*.ino.cpp.o
+*.ino.cpp.d
+applet/
+.pioenvs/
+.piolibdeps/
+.pio/
+
+# Environment
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# MongoDB
+mongodb-config/INITIAL_DATA.json
+
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.Spotlight-V100
+.Trashes
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# TypeScript
+*.tsbuildinfo
+
+# System files
+~
+desktop.ini

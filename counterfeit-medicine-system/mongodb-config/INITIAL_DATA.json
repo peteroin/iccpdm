@@ -1,0 +1,82 @@
+{
+  "medicines": [
+    {
+      "uid": "CD8DD505",
+      "medicineName": "Paracetamol",
+      "batchId": "BATCH-2024-001",
+      "registered": true,
+      "expiryDate": "2026-12-31",
+      "recalled": false,
+      "uvRef": 450,
+      "uvTol": 50,
+      "rgbRef": {
+        "r": 245,
+        "g": 245,
+        "b": 245
+      },
+      "rgbTol": {
+        "r": 20,
+        "g": 20,
+        "b": 20
+      },
+      "scanCount": 0,
+      "lastScanDate": "2024-01-01",
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "uid": "4D2CAA04",
+      "medicineName": "Aspirin",
+      "batchId": "BATCH-2024-002",
+      "registered": true,
+      "expiryDate": "2025-06-30",
+      "recalled": false,
+      "uvRef": 420,
+      "uvTol": 45,
+      "rgbRef": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      },
+      "rgbTol": {
+        "r": 25,
+        "g": 25,
+        "b": 25
+      },
+      "scanCount": 0,
+      "lastScanDate": "2024-01-01",
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "uid": "UNREGISTERED_TEST",
+      "medicineName": "Unknown Tablet",
+      "batchId": "TEST-001",
+      "registered": false,
+      "expiryDate": "2024-12-31",
+      "recalled": false,
+      "uvRef": 400,
+      "uvTol": 40,
+      "rgbRef": {
+        "r": 200,
+        "g": 200,
+        "b": 200
+      },
+      "rgbTol": {
+        "r": 15,
+        "g": 15,
+        "b": 15
+      },
+      "scanCount": 0,
+      "lastScanDate": "2024-01-01",
+      "createdAt": "2024-01-01T00:00:00Z"
+    }
+  ],
+  "scanHistory": [],
+  "recalledBatches": [
+    {
+      "batchId": "BATCH-2024-003",
+      "reason": "Quality issue detected",
+      "recalledDate": "2024-12-20",
+      "medicines": ["4D2CAA04"]
+    }
+  ]
+}
